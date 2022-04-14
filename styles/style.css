@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 48px;
+}
+
+/* header css */
+header{
+    background-color: #264653;
+    padding: 80px 0;
+}
+.left-header p{
+    color: #E0E0E0;
+}
+.btn-header{
+    color: #000;
+    background-color: #E76F51;
+    border-color: #E76F51;
+    padding: 10px 46px;
+}
+
+/* feature-bikes section css */
+.feature-bikes{
+    padding-top: 65px;
+    padding-bottom: 120px;
+}
+.feature-bikes-heading small{
+    color: #E76F51;
+}
+.feature-bikes-img{
+    padding-top: 120px;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+
+/* happy-clients section css */
+.happy-clients-text{
+    color: #6C6C6C;
+}
+.happy-clients-ratings i{
+    color: #E76F51;
+}
+.happy-clients-name{
+    color: #23A6F0;
+}
+.happy-clients-profession{
+    color: #252B42;
+}
+
+/* footer css */
+.footer-newsletter{
+    background-color: #264653;
+}
+.btn-newsletter{
+    border: 0;
+    top: 0px;
+    right: 0em;
+    padding: 7px 25px;
+    background: #E76F51;
+}
+
+/* media query */
+@media only screen and (max-width: 1024px) {
+    .faq-img {
+      text-align: center;
+    } 
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .btn-newsletter{
+        padding: 7px 8px;
+    }
+  }
